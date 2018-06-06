@@ -5,7 +5,7 @@ def kwk_camp
     puts "Come to Camp"
     puts "You have #{10 - days} days left"
     
-    days = days + 1 
+    days += 1 
   end
   puts "Camp is over"
 end
